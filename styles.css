@@ -1,0 +1,12 @@
+.page{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "head"
+    "body"
+    "foot";
+}
+
+.head{grid-area: head;}
+.body{grid-area: body;}
+.foot{grid-area: foot;}
