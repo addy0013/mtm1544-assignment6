@@ -7,6 +7,18 @@
     box-sizing: border-box;
 }
 
+/* font styling */
+h1{
+    font-size: 64px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 24px;;
+}
 body{
     font-family: "Nunito Sans", sans-serif;
 }
@@ -27,6 +39,7 @@ a{
     display: inline-block;
 }
 
+/* styling page using Grid because it controls the overall page skeleton */
 .page {
   display: grid;
   grid-template-columns: 1fr;
@@ -40,19 +53,21 @@ a{
 .body{grid-area: body;}
 .foot{grid-area: foot;}
 
+/* styling body using Grid to divide the main content into two columns */
 .body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-inline: 45px;
 }
 
-/* styling gallery */
+/* styling gallery using Grid to make event cards responsive columns */
 .gallery{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     gap: 2em;
 }
 
+/* styling event cards using Grid to align the card content into rows */
 .event-card{
     display: grid;
     grid-template-rows: subgrid;
@@ -71,11 +86,12 @@ img{
     height: auto;
 }
 
-
+/* styling hero with Grid to span both columns of the main content. */
 .hero{
     grid-column: 1 / 3;
 }
 
+/* styling quick links and events with Grid to span both columns of the main content. */
 .quick-links, .events{
     grid-column: 1 / 3;
 }

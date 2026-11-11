@@ -28,16 +28,9 @@
 
 **Typography**
 Primary type family:
-Nunito Sans + Inter
+Nunito Sans
+H1: 64px;
+H2: 48px;
+H3: 24px;
 
-H1 — Role: Main page title and hero headline; Nunito Sans Bold; 48–64 px.
-
-H2 — Role: Section headings, such as “Upcoming Events”; Nunito Sans Bold; 28–32 px on mobile, 32–40 px on desktop.
-
-H3 — Role: Event, program, and service card titles; Nunito Sans Semibold; 22–26 px.
-
-Body — Role: Paragraphs, program descriptions, service information, and event details; Inter Regular; 16–18 px; line height 1.5–1.7.
-
-Label — Role: Navigation, buttons, form labels, and shortcut links; Inter Semibold; 16–18 px.
-
-Caption — Role: Image captions, supporting details, and secondary information; Inter Medium; 16 px.
+**Assignment Notes**
