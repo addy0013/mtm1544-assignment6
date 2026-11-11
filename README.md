@@ -29,8 +29,18 @@
 **Typography**
 Primary type family:
 Nunito Sans
-H1: 64px;
-H2: 48px;
-H3: 24px;
+H1: 64px; Line-Height: Auto
+H2: 48px; Line-Height: Auto
+H3: 24px; Line-Height: Auto
 
 **Assignment Notes**
+Measurements
+The mockup’s event cards are 380px wide, with 85px gaps.
+I tested a 200px minmax floor:
+- At 1728px: 4 columns.
+- At 864px: 3 columns.
+I increased the floor to 380px to reflect the mockup’s card width.
+
+Changes Made
+The mockup has a horizontally scrolling events row.
+The implementation uses a wrapping auto-fit gallery to meet the assignment requirement.

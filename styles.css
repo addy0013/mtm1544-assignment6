@@ -10,24 +10,29 @@
 /* font styling */
 h1{
     font-size: 64px;
+    color: #2457C5;
 }
 
 h2{
     font-size: 48px;
+    color: #2457C5;
+
 }
 
 h3{
     font-size: 24px;;
+    color: #2457C5;
 }
 body{
     font-family: "Nunito Sans", sans-serif;
+    background-color: #E9EEFA;
 }
 
 /* styling navbar using Flexbox to keep nav items in 1 row */
 .navbar{
     display: flex;
     list-style: none;
-    padding: 1em;
+    padding-right: 45px;
     flex-direction: row;
     align-items: center;
     gap: 2em;
@@ -37,6 +42,10 @@ body{
 a{
     text-decoration: none;
     display: inline-block;
+    color: #1D469E;
+}
+a:hover{
+    color: #E8752E;
 }
 
 /* styling page using Grid because it controls the overall page skeleton */
@@ -72,7 +81,7 @@ a{
     display: grid;
     grid-template-rows: subgrid;
     grid-row: span 2;
-    background-color: #EEEEEE;
+    background-color: #BDCDED;
     padding: 10px;
 
     h3{
