@@ -1,15 +1,25 @@
+/* font style to match mockup */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200..1000&display=swap');
+
+
 * {
     box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito Sans", sans-serif;
 }
 
 /* styling navbar using Flexbox to keep nav items in 1 row */
 .navbar{
     display: flex;
     list-style: none;
-    padding: 0;
+    padding: 1em;
     flex-direction: row;
     align-items: center;
     gap: 2em;
+    justify-content: flex-end;
 }
 
 a{
@@ -36,11 +46,31 @@ a{
     padding-inline: 45px;
 }
 
+/* styling gallery */
 .gallery{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-    gap: 85px;
+    gap: 2em;
 }
+
+.event-card{
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 2;
+    background-color: #EEEEEE;
+    padding: 10px;
+
+    h3{
+        text-align: center;
+    }
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+}
+
 
 .hero{
     grid-column: 1 / 3;
